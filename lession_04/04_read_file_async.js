@@ -2,7 +2,7 @@ var fs = require("fs");
 
 console.log("Bat dau doc file");
 
-fs.readFile("data1.txt", function(err, content){
+fs.readFile("data_2.txt", function(err, content){
     if(err){
         console.log(" Co loi roi");
         console.log(err);
